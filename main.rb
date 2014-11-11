@@ -4,7 +4,9 @@ require 'pry'
 
 #no alerts when hitting and busting or hitting to blackjack, extra alerts otherwise
 
-set :sessions, true
+use Rack::Session::Cookie, :key => 'rack.session',
+                           :path => '/',
+                           :secret => 'password_password' 
 
 BLACKJACK_AMOUNT = 21
 DEALER_MIN_HIT = 17
