@@ -1,0 +1,63 @@
+* {
+  color:#000;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Limelight', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Limelight', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Limelight', cursive;
+  text-align: center;
+}
+
+form#hit_form {
+  float: left;
+  margin-right: 10px;
+}
+
+form#stay_form {
+  float: left;
+}
+
+img.card_image {
+  margin: 0px 5px 5px 0px;
+}
+
+div#current_info {
+  margin-left: 0px;
+  margin-top: 75px;
+}
+
+div.well {
+  margin: auto;
+  margin-right:auto;
+}
+
+form#play_again{
+  float: left;
+  margin-right: 10px;
+}
+
+form#end_game {
+  float: left;
+}
+
+div.well {
+  background: url(http://cache2.asset-cache.net/gc/184983947-seamless-green-felt-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=8L3w44FvYSUHjc4%2F4S5vz89pR%2Fudagw9t00eGT9ciqI%3D) center;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+#buttons {
+  background-color: #F8F8F8;
+}

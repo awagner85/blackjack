@@ -1,0 +1,10 @@
+<h2>Feeling lucky?</h2>
+<h4>Place your bet for this round below:</h4>
+<br/>
+<h5><%= session[:player_name] %> has $<%= session[:cash] %></h5>
+
+<form action='/bet' method='post'>
+  Wager:<input type='text' name='wager'/>
+  <br/>
+  <input type='submit' value='Place Bet' class='btn btn-success'/>
+</form>
